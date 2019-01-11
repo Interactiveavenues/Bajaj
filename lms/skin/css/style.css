@@ -1,0 +1,144 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+/*
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat'), url(https://fonts.googleapis.com/css?family=Fjalla+One&amp;subset=latin-ext) ;
+
+}
+
+@font-face{
+	font-family:"airborne";
+	src:url('../fonts/airborne.ttf');
+}
+
+
+*		{ margin:0px; padding:0px;}
+html	{ margin:0px; padding:0px; font-size:14px;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;}
+
+
+.text-bold{
+    font-weight:bold;
+}
+.font-small{
+    font-size:12px;
+}
+
+.font-small-10{
+    font-size:10px;
+	color:#ccc!important;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    padding-top:80px;
+    max-width: 1200px;
+    padding: 0 15px;
+    padding-bottom:20px;
+}
+
+.containerbox{
+    padding-bottom:0px!important;
+}
+/*
+body {
+  padding-top: 5rem;
+}*/
+.error{ color:red }
+#refreshcpatcha{ cursor:pointer; }
+
+.afterotp,.otpfire,#fverification,#aftersubmiterror,#afterreset,#finalreset,#querysubmiterror{
+    display:none
+}
+
+.modal-body {
+    height:255px;
+    overflow:auto;
+}
+
+.tabs-wrap {
+    margin-top: 40px;
+}
+.tab-content .tab-pane {
+    padding: 20px 0;
+}
+
+.header { position:absolute!important;}
+
+ul#user-side-menu{
+    list-style-type: none;
+}
+
+table.table > thead > tr > th{
+    vertical-align: text-top;
+}
+
+
+ul.pagination {
+    text-align:center;
+    color:#829994;
+}
+ul.pagination li {
+    display:inline;
+    padding:0 3px;
+}
+ul.pagination a {
+    color:#0d7963;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid #cde0dc;
+    text-decoration:none;
+}
+ul.pagination a:hover,
+ul.pagination a.current {
+    background:#428BCA;
+    color:#fff;
+}
+
+/* password strength */
+
+#meter_wrapper
+{
+    border:1px solid grey;
+    margin-top:20px;
+    width:100%;display:none;
+    height:15px;
+    border-radius:3px;
+}
+#meter
+{
+    width:0px;
+    height:15px;
+    border-radius:
+}
+#pass_type
+{
+    font-size:15px;
+    margin-top:2px;
+    text-align:center;
+    color:grey;
+}
+
+
+/* */

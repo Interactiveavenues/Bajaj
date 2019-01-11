@@ -1,0 +1,441 @@
+﻿.bookOnline {
+    background:url('http://www.bajajauto.com/BajajDominar/Dominar400/images/common/new_booking_hover.png');
+    background-repeat:no-repeat;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    margin-top: 5%;
+    right: 0;
+    width: 122px;
+    height: auto;
+}
+
+.bookOnline img {
+    width: 100%;
+    height: auto
+}
+
+.bookOnline a,.btnRegister {
+    display: inline-block;
+    height: 0
+}
+
+.bookOnline a {
+    width: 100%;
+    padding-bottom: 107%;
+    background-image: url(http://www.bajajauto.com/BajajDominar/Dominar400/images/common/new_booking_hover.png);
+    -webkit-transition: background .5s ease-out;
+    -moz-transition: background .5s ease-out;
+    -o-transition: background .5s ease-out;
+    transition: background .5s ease-out
+}
+
+
+
+.bookOnline>a.newBookingBtn {
+    background-image: url(http://www.bajajauto.com/BajajDominar/Dominar400/images/common/new_booking_hover.png);
+    text-indent: inherit;
+    text-align: center;
+    font-size: 10px;
+    line-height: 13px!important;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 111%;
+    margin: 20px 0 0;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.bookOnline>a.newBookingBtn>span {
+    margin: 7px 0 0;
+    display: inline-block
+}
+
+.bookOnline>a.newBookingBtn:hover {
+    background-image: url(http://www.bajajauto.com/BajajDominar/Dominar400/images/common/new_booking_hover.png)
+}
+
+
+/*************************
+*******Typography******
+**************************/
+/*
+@import url(//fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(//fonts.googleapis.com/css?family=Abel);
+*/
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background:;
+    position: relative;
+    font-weight:400px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#ui-datepicker-div{
+	z-index:1000!important;
+}
+
+a:hover {
+    outline: none;
+    text-decoration:none;
+}
+
+a:focus {
+    outline:none;
+    outline-offset: 0;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.btn:hover,
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggle {
+    background-color: #000;
+}
+
+
+
+/*************************
+*******Header CSS******
+**************************/
+
+.header_top {
+    background: none repeat scroll 0 0 #ACACAC;
+}
+
+.contactinfo ul li:first-child{
+    margin-left: -15px;
+}
+
+.contactinfo ul li a{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.contactinfo ul li a:hover{
+    background:inherit;
+}
+
+
+.header-middle .containerbox .row {
+    border-bottom: 0px solid #f5f5f5;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.header-middle .containerbox .row .col-sm-4{
+    padding-left: 0;
+}
+
+.header-middle .containerbox .row .col-sm-8 {
+    padding-right:0;
+}
+
+.btn-group.open .dropdown-toggle {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+.dropdown-menu  li  a:hover, .dropdown-menu  li  a:focus {
+    background-color: #FE980F;
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+}
+
+
+.header-bottom {
+    padding-bottom: 12px;
+    padding-top: 30px;
+}
+
+.navbar-collapse.collapse{
+    padding-left: 0;
+}
+
+.mainmenu ul li{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mainmenu ul li:first-child{
+    /* padding-left: 0px; */
+}
+
+.mainmenu ul li a {
+    color: #696763;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
+    background:none;
+    color:#fdb45e;
+}
+
+.search_box input {
+    background: #F0F0E9;
+    border: medium none;
+    color: #B2B2B2;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    height: 35px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 155px;
+    background-image: url(../images/home/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: 130px;
+}
+
+
+/*  Dropdown menu*/
+
+.navbar-header
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.nav.navbar-nav > li:hover > ul.sub-menu{
+    display: block;
+    -webkit-animation: fadeInUp 400ms;
+    -moz-animation: fadeInUp 400ms;
+    -ms-animation: fadeInUp 400ms;
+    -o-animation: fadeInUp 400ms;
+    animation: fadeInUp 400ms;
+}
+
+ul.sub-menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 220px;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 999;
+}
+
+.dropdown ul.sub-menu li .active{
+    color: #FDB45E;
+    padding-left: 0;
+}
+
+
+.navbar-nav li ul.sub-menu li{
+    padding: 10px 20px 0 ;
+}
+
+.navbar-nav li ul.sub-menu li:last-child{
+    padding-bottom: 20px;
+}
+
+.navbar-nav li ul.sub-menu li a{
+    color: #fff;
+}
+
+.navbar-nav li ul.sub-menu li a:hover{
+    color: #FDB45E;
+}
+
+.fa-angle-down{
+    padding-left: 5px;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*************************
+*******Footer CSS******
+**************************/
+
+#footer {
+    background: #F0F0E9;
+}
+
+
+.footer-top .containerbox {
+    border-bottom: 1px solid #E0E0DA;
+    padding-bottom: 20px;
+}
+
+.companyinfo {
+    margin-top: 57px;
+}
+
+.companyinfo h2 {
+    color: #B4B1AB;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.companyinfo h2  span{
+    color:#FE980F;
+}
+
+.companyinfo p {
+    color: #B3B3AD;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer-top .col-sm-3{
+    overflow: hidden;
+}
+
+
+.footer-widget {
+    margin-bottom: 68px;
+}
+
+.footer-widget .containerbox {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 15px;
+}
+
+
+
+.footer-bottom {
+    background: #acacac;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    color: #363432;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.footer-bottom p span a {
+    color: #FE980F;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.logo_box {
+    border-right: 1px solid #303030;
+    float: left;
+    height: 280px;
+    position: relative;
+    width: 349px;
+}
+
+h1 cufon{
+    margin-bottom: -4px;
+}
+
+.main_box{
+    float: left;
+    width: 500px;
+    height: 95px;
+    padding: 25px;
+}
+
+
+/* menus css */
+
+.activedealer{
+	background-color:#fee900;
+}
+
+#header{
+	padding-bottom:20px;
+}
+
+.navbar-nav li ul.sub-menu li a{
+	color: #FEE900!important;
+}
+
+ul.sub-menu{
+	top:50px!important;
+}
+.header-bottom{
+	background:#000;padding-top:0px!important;
+}
+
+.btnwrap {
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.btnwrap .btn1,.btnwrap .btn1:hover {
+   /* margin: 0px 20px 0px 0px;*/
+    padding: 0px 0px 0px 12px;
+    background: url(../images/btn1.png) no-repeat;
+    width: 170px;
+}
+
+.btnwrap .btn2,.btnwrap .btn2:hover {
+    margin: 0px;
+    padding: 0px 0px 0px 20px; 
+    background: url(../images/btn2.png) no-repeat;
+    width: 215px;
+}
+
+
+li.btnwrap > a,li.btnwrap > a:hover {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: 57px;
+    font-size: 24px;
+    color: #000000!important;
+    line-height: 52px;font-size:24px!important;font-family:airborne!important;
+}
+
+
+
+.topblock{
+	font-size: 10px;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    color: #fee900;
+    float: right;
+    margin-right: 30px!important;
+}

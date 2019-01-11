@@ -1,0 +1,431 @@
+/* lg */
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+
+.logo{
+    text-decoration:none;
+    border:0;
+    width : 100%;
+    height : 96px;
+    margin-left : -20px;
+    padding : 0;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+.logo a{
+    display : block;
+    height : 113px;
+    text-indent : -9999px;
+}
+
+.shop-menu{
+    text-decoration:none;
+    border:0;
+    width : 21%;
+    height : 96px;
+    margin : 0;
+    padding : 0;
+    background-image: url(../images/logo_bajaj.png);
+    background-repeat: no-repeat;
+}
+.shop-menu a{
+    display : block;
+    height : 113px;
+    text-indent : -9999px;
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .header-middle .col-sm-4 {
+        width: 24%;
+    }
+
+    .tab-pane .col-sm-3, .features_items .col-sm-4{
+        width: 50%;
+    }
+
+    .footer-widget .col-sm-2{
+        width: 33%;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+    .footer-widget .col-sm-3{
+        display: inline-block;
+        width: 40%;
+    }
+
+    .companyinfo h2{
+        font-size: 20px;
+    }
+
+    .logo{
+        height : 76px;
+        background-image: url(../images/logo_768_991.png);
+    }
+
+    .shop-menu{
+        width: 70px;
+    }
+
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+    .logo{
+        height : 76px;
+        background-image: url(../images/logo_767.png);
+    }
+
+    .shop-menu{
+        height : 76px;
+        background-image: url(../images/logo_bajaj-50.png);
+    }
+
+    .header_top .col-sm-6:first-child{
+        display: inline-block;
+        float: left;
+    }
+
+    .header_top .col-sm-6:last-child{
+        display: inline-block;
+        float: right;
+    }
+
+    .header-middle .col-sm-4 {
+        display: inline-block;
+        overflow: inherit;
+        width: 100%;
+    }
+
+    .social-icons ul li a i {
+        padding: 8px 10px;
+    }
+
+    .shop-menu{
+        width: 70px;
+    }
+
+    .shop-menu.pull-right{
+        float: none !important;
+    }
+
+    .shop-menu .nav.navbar-nav{
+        margin-left: -30px;
+    }
+
+    .header-bottom .col-sm-9{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .mainmenu{
+        width: 100%;
+    }
+
+    .mainmenu ul li{
+       /* background: rgba(0, 0, 0, 0.5); */
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+
+    .mainmenu ul li:last-child{
+        padding-bottom: 15px;
+    }
+
+    .mainmenu ul li  a{
+        color: #fff;
+    }
+
+    .navbar-collapse.in{
+        overflow: inherit;
+    }
+
+    .mainmenu ul li a.active{
+        padding-left: 15px;
+    }
+
+    .dropdown .fa-angle-down{
+        display: none;
+    }
+
+    ul.sub-menu{
+        position: relative;
+        width: auto;
+        display: block;
+        background: transparent;
+        box-shadow: none;
+        top: 0;
+    }
+
+    .sub-menu li{
+        background: transparent;
+    }
+
+    .mainmenu .navbar-nav li ul.sub-menu li{
+        background: transparent;
+        padding-bottom:0;
+    }
+
+    .nav.navbar-nav > li:hover > ul.sub-menu{
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        -o-animation: none;
+        animation: none;
+        box-shadow: none;
+    }
+
+    .header-bottom{
+        position: relative;
+    }
+
+    .header-bottom .col-sm-3 {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 38px;
+    }
+
+    .footer-top .col-sm-7 .col-sm-3{
+        width: 50%;
+        float: left;
+    }
+
+    .footer-widget .col-sm-2 {
+        width: 28%;
+        display: flex;
+        margin-bottom: 50px;
+        margin-top: 0;
+        float: left;
+        margin-left: 30px;
+    }
+
+    .companyinfo{
+        text-align: center;
+    }
+
+    .footer-widget .col-sm-3{
+        display: inline-block;
+    }
+
+    .single-widget{
+
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 766px) {
+    .header-middle .col-sm-4 {
+        width: 20%;
+    }
+
+    .header-middle .col-sm-8 {
+        width: 80%;
+    }
+
+    .shop-menu{
+        margin-left:96px;
+    }
+
+    .menuSuperscript{display: none;}
+    .btn1{
+        background: none;
+    }
+
+    .btnwrap {
+        padding: 0px 0px 0px 12px;
+        width: 170px;
+    }
+
+    ul.sub-menu{
+        display: none !important;
+    }
+
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+    .logo{
+        height : 76px;
+        width: 78%;
+        margin-left: -15px;
+        background-image: url(../images/logo_212.png);
+    }
+
+    .header-middle .col-sm-4 {
+        width: 24%;
+    }
+    .shop-menu{
+        margin-left: 31px;
+    }
+
+
+    .contactinfo{
+        text-align: center;
+    }
+
+    .contactinfo ul li a {
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+    .btn-group.pull-right,
+    .footer-bottom .pull-left,
+    .footer-bottom .pull-right,
+    .mainmenu.pull-left,
+    .media.commnets .pull-left,
+    .media-list .pull-left{
+        float: none !important;
+    }
+
+    .header_top .col-sm-6:first-child{
+        display: block;
+        float: none;
+    }
+
+    .header_top .col-sm-6:last-child{
+        display: block;
+        float: none;
+    }
+
+    .contactinfo .nav.nav-pills, .social-icons .nav.navbar-nav{
+        display: inline-block;
+    }
+    /*
+    .logo{
+            text-align: center;
+            width: 100%;
+    }
+    */
+
+
+
+    .shop-menu ul li {
+        padding: 0;
+    }
+
+    .header-middle .col-sm-4{
+        text-align: center;
+        overflow: inherit;
+    }
+
+    .shop-menu .nav.navbar-nav {
+        margin-left: 0;
+    }
+
+    .btn-group>.btn-group:last-child>.btn:first-child{
+        margin-right: 0;
+    }
+
+    .header-bottom .col-sm-9{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .mainmenu{
+        width: 100%;
+    }
+
+    .mainmenu ul li{
+        /* background: rgba(0, 0, 0, 0.5); */
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+
+    .mainmenu ul li:last-child{
+        padding-bottom: 15px;
+    }
+
+    .mainmenu ul li a {
+        color: #FFF;
+        padding-bottom: 0;
+    }
+
+    .navbar-collapse.in{
+        overflow: inherit;
+    }
+
+    .mainmenu ul li a.active{
+        padding-left: 15px;
+    }
+
+    .dropdown .fa-angle-down{
+        display: none;
+    }
+
+    ul.sub-menu{
+        position: relative;
+        width: auto;
+        display: block;
+        background: transparent;
+        box-shadow: none;
+        top: 0;
+    }
+
+
+    .mainmenu .navbar-nav li ul.sub-menu li{
+        background: transparent;
+        padding-bottom:0;
+    }
+
+    .nav.navbar-nav > li:hover > ul.sub-menu{
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        -o-animation: none;
+        animation: none;
+        box-shadow: none;
+    }
+
+    .companyinfo h2, .companyinfo p{
+        text-align: center;
+    }
+
+    .footer-bottom p{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .footer-widget .col-sm-2 {
+        width: 50%;
+        display: flex;
+        margin-bottom: 50px;
+        margin-top: 0;
+        float: left;
+        padding-right: 0;
+        padding-left: 30px;
+        margin-left: 0;
+    }
+
+    .menuSuperscript{display: none;}
+    .btn1{
+        background: none;
+    }
+
+    .btnwrap {
+        padding: 0px 0px 0px 12px;
+        width: 170px;
+    }
+
+    ul.sub-menu{
+        display: none !important;
+    }
+
+
+}

@@ -1,0 +1,434 @@
+/* body { overflow:hidden; }*/
+
+.priceTab { background-image:url(../images/price/desk-bg.jpg); background-position:0 bottom; background-size:auto 100%; background-color:#0c1019; }
+
+.content { max-width:700px; top:15%; margin-left:-350px; }
+.content > p { font-size:1.05em; line-height:1.2em; margin-top:1em; letter-spacing:.03em; }
+.content > h1 { font-size:3.5em; line-height:1.2em; }
+.content > h2 { font-size:2em; line-height:1.2em; margin-top:1.5em; }
+
+.priceList { max-width:450px; height:auto; margin-top:1em; }
+
+.selectDropdown { width:65%; margin:0 auto; }
+.priceDetail { width:75%; margin:0 auto; margin-top:1em; overflow:hidden; background-image:url(../images/price/bar-img.png); background-repeat:no-repeat; background-position:center 5px; }
+.priceDetail > p { width:40%; letter-spacing:.06em; line-height:.9em; font-size:1.8em; padding-left:20px; background-position:0 2px; text-align:center; }
+.priceDetail > p > span { font-size:.4em; line-height:.2em; text-transform:uppercase; }
+
+.priceDetail > p:first-child { float:left; }
+.priceDetail > p:last-child { float:right; }
+
+.tncPage { max-width:400px; margin-top:0.8em; padding:.5em 50px 0 50px; }
+.tncPage > p { font-size:.85em; line-height:1.2em; }
+
+.productImg { width:36.9791%; height:67.1830%; background-image:url(../images/price/desk-bike-img.png); background-size:100% auto; margin-left:-18.4895%; }
+
+/* price tab end */
+
+.bookingTab { background-image:url(../images/price/desk-bg.jpg); background-position:0 bottom; background-size:auto 100%; background-color:#0c1019; }
+
+
+ul.formList { max-width:586px; }
+.formList li { margin-bottom:.5em; }
+.formList li > .colOne,.formList li > .colTwo { max-width:288px; }
+.formList li > .colOne > input, .formList li > .colTwo > input, .formList li > .colThree > input { max-width:94%; padding:12px 3% 11px 3%; line-height:20px; font-size:1em; color:#fff; }
+
+.formList li > .colOne p > a { font-size:.85em; }
+
+.formList li > .dealSubmitBtn { max-width:230px; margin:0 auto; }
+.formList li > .dealSubmitBtn > a { font-size:1.2em; height:20px; line-height:20px; padding:12px 20px 11px 20px; }
+.formList li > .dealSubmitBtn > a > span { background-position:right 4px; padding-right:30px; background-size:auto 16px; }
+
+.formList li > .submitBtn { max-width:134px; float:right; }
+.formList li > .submitBtn > a { font-size:1.2em; height:20px; line-height:20px; padding:12px 20px 11px 20px; }
+.formList li > .submitBtn > a > span { background-position:right 4px; padding-right:30px; background-size:auto 16px; }
+
+.innerOverlay { width:1234px; /*height:731px;*/ height:695px; margin:-365px 0 0 -617px; /*background:url(../images/priority-booking/desk/overlay-mid-bg.jpg) repeat-y 0 0;*/ }
+.innerLayer { background:url(../images/priority-booking/desk/overlay-top-bg.jpg) no-repeat 0 0,url(../images/priority-booking/desk/overlay-bottom-bg.jpg) no-repeat 0 bottom; }
+.contentList { height:537px; padding:162px 10px 0 78px; position:relative; }
+
+.innerLayer > p { font-size:.85em; line-height:1.2em; }
+
+.droplistTab { width:610px; position:absolute; left:78px; top:72px; z-index:14; }
+.colState { width:300px; height:45px; float:left; }
+.colCity { width:300px; height:45px; margin-left:10px; float:left; }
+
+ul.priorityList li { width:48%; margin:1%; float:left; height:155px; }
+
+.closeBtn { position:absolute; right:30px; top:30px; width:30px; height:30px; z-index:14; }
+
+.booking-select select { padding:8px 3px 8px 5px; }
+.booking-select:after { line-height:42px; padding:0 10px; }
+
+input[type=radio].css-radiobox + label.radiobox-label { padding-left:45px; height:28px; }
+input[type=radio].css-radiobox:checked + label.radiobox-label { }
+label.radiobox-label { }
+label.radiobox-label > h3 { font-size:1.2em; line-height:1.2em; }
+label.radiobox-label > p { font-size:1em; line-height:1.2em; margin-top:.5em; }
+label.radiobox-label > p.phoneIcon { padding-left:25px; }
+
+
+
+
+@media screen and (max-width:1360px) and (min-width:801px) {
+	
+	ul.formList { max-width:510px; }
+	.formList li > .colOne,.formList li > .colTwo { max-width:250px; }
+	.formList li > .colOne > input, .formList li > .colTwo > input, .formList li > .colThree > input { padding:8px 3% 8px 3%; font-size:.9em; }
+	
+	.formList li > .submitBtn { max-width:130px; }
+	.formList li > .submitBtn > a { padding:9px 20px 9px 20px; }
+	
+	
+
+}
+
+@media screen and (max-width:1600px) and (min-width:801px) {
+	
+	.innerOverlay { width:1000px; height:600px; margin:-300px 0 0 -500px; }
+	.contentList { height:450px; padding:120px 10px 0 65px; position:relative; }
+	
+	.droplistTab { width:610px; position:absolute; left:65px; top:60px; z-index:14; }
+	.colState { width:300px; height:45px; float:left; }
+	.colCity { width:300px; height:45px; margin-left:10px; float:left; }
+	
+	.booking-select select { padding:6px 3px 6px 5px; }
+	.booking-select:after { line-height:42px; padding:0 10px; }
+	
+	input[type=radio].css-radiobox + label.radiobox-label { padding-left:30px; height:20px; }
+	input[type=radio].css-radiobox:checked + label.radiobox-label { background-size:20px auto; }
+	label.radiobox-label { background-size:20px auto; }
+	
+	@media screen and (max-width:1600px) {
+	
+		.innerOverlay { width:900px; height:500px; margin:-250px 0 0 -450px; }
+		.contentList { height:330px; padding:120px 10px 0 65px; position:relative; }
+	}
+
+}
+
+/* priority dealer end */
+
+.dealerTab { background-image:url(../images/dealer-locator/desk-bg.jpg); background-position:0 bottom; background-size:auto 100%; background-color:#fff; }
+
+.dealerContent { max-width:966px; top:15%; margin-left:-483px; }
+.dealerContent > h1 { font-size:3em; line-height:1.2em; }
+.dealerContent > h2 { font-size:2.8em; line-height:1.2em; margin-top:.3em; }
+.dealerContent > p { font-size:1em; line-height:1.2em; margin-top:2em; }
+
+.dropList { max-width:639px; height:45px; margin-top:1em; }
+.selectOne, .colOne { max-width:288px; }
+.selectTwo { max-width:341px; }
+.colTwo { max-width:44px; }
+
+.colTwo > a { height:39px; background-position:center 10px; }
+
+.listTab { margin-top:.5em; }
+
+ul.addressList { max-width:966px; } 
+.addressList li { max-width:395px; min-height:160px; padding:20px 22px 20px 66px; float:left; }
+
+.addressList li.listOne { max-width:395px; text-align:center; min-height:160px; padding:20px 285px 20px 286px; float:left; }
+
+.addressList li > h3 { font-size:1.2em; line-height:1.4em; }
+.addressList li > p { font-size:1em; line-height:1.2em; }
+
+@media screen and (max-width:1600px) and (min-width:801px) {
+	
+	.listTab { background-size:1px 150px; background-position:center 10px; }
+	
+	@media screen and (max-width:970px) {
+		
+		.dealerContent { max-width:800px; top:15%; margin-left:-400px; }
+		
+		ul.addressList { max-width:800px; } 
+		.addressList li { max-width:360px; min-height:160px; padding:10px 15px 10px 25px; float:left; }
+		.addressList li.listOne { max-width:360px; min-height:160px; padding:10px 220px; float:left; }
+	
+	}
+
+}
+
+
+/* dealer locator end */
+
+.contactTab { background-image:url(../images/contact-us/desk-bg.jpg); background-position:0 bottom; background-size:100% auto; background-color:#0c1019; }
+
+.innerContact { max-width:400px; top:24.0740%; left:30.4687%; }
+
+.innerContact > p { font-size:1.05em; line-height:1.2em; margin-bottom:1.5em; letter-spacing:.03em; padding-left:60px; }
+.innerContact > h1 { font-size:3.5em; line-height:1.2em; }
+.innerContact > h2 { font-size:1em; line-height:1.2em; margin-bottom:1em; }
+
+.innerContact > p.addressCont { background-size:auto auto; background-position:10px 0;  }
+.innerContact > p.phoneCont { background-size:auto auto;  }
+.innerContact > p.mailCont { background-size:auto auto; background-position:0 5px; }
+
+.contactImg { width:41.4062%; height:87.2955%; background-image:url(../images/contact-us/desk-bike-img.png); background-size:100% auto; left:48.4375%; }
+
+@media screen and (max-width:1600px) and (min-width:801px) {
+	
+	.innerContact > p { padding-left:50px; }
+	
+	.innerContact > p.addressCont { background-size:20px auto; background-position:10px 0;  }
+	.innerContact > p.phoneCont { background-size:36px auto;  }
+	.innerContact > p.mailCont { background-size:35px auto; background-position:0 5px; }
+}
+
+/* contact us end */
+
+
+.eventsTab { background-image:url(../images/events/desk-bg.jpg); background-position:0 bottom; background-size:auto 100%; }
+
+.eventsContent { max-width:1046px; top:15%; margin-left:-523px; }
+.eventsContent > h1 { font-size:3em; line-height:1.2em; /*padding-left:59px;*/  }
+
+.eventsList { }
+
+.eventsList ul li { max-width:405px; height:320px; margin:15px 53px; float:left; }
+.eventsList#galleryList ul li { max-width:405px; height:260px; margin:15px 53px; float:left; }
+.eventsList ul li.listCenter { max-width:405px; height:320px; margin:15px 320px 15px 321px; float:left; }
+.eventsList ul li > .hdrImage { margin-bottom:.5em; }
+.eventsList ul li > h2 { font-size:1.3em; line-height:1.2em; margin-bottom:.2em; }
+.eventsList ul li > p { font-size:1em; line-height:1.2em; margin-bottom:.5em; }
+.eventsList ul li > a.knowMoreBtn { width:124px; height:37px; background-image:url(../images/events/desk-know-more-bg.png); font-size:.85em; line-height:40px; text-align:center; }
+.eventsList ul li > a.knowMoreBtn > span { background-position:right 4px; padding-right:14px; background-size:auto 10px; }
+
+@media screen and (max-width:1600px) and (min-width:1400px) {
+
+	.eventsContent > h1 { text-align:center; padding:0; }
+	/*.eventsContent { max-width:1335px; top:15%; margin-left:-667px; }
+	.eventsContent > h1 { text-align:center; padding:0; }
+	.eventsList ul li { max-width:405px; height:320px; margin:15px 20px; float:left; }
+	.eventsList ul li.listCenter { max-width:405px; height:320px; margin:15px 475px; float:left; }*/
+	
+}
+
+@media screen and (max-width:1399px) and (min-width:801px) {
+
+.eventsContent > h1 { text-align:center; padding:0; }
+
+}
+@media screen and (max-width:1024px) and (min-width:981px) {
+
+.homeTab#homeTab01 { background-image:url(../images/home/desk/bg-fire-bike-1024.jpg)!important;}
+
+}
+
+
+/* Event tab end */
+
+
+.mainBanner { width:100%; height:45%; background-position:25% top, 0 0; background-image:url(../images/events/inner-events/desk-banner.png),url(../images/events/inner-events/banner-bg.png); background-size:auto 100%,100% 100%; }
+.mainBanner > h1 { left:50%; bottom:25%; font-size:2em; line-height:.8em; max-width:200px; margin-left:60px; color:#000; text-align:center; }
+
+.innerEvents { max-width:1000px; margin-top:1em; }
+.innerEvents > p { font-size:.95em; line-height:1.5em; margin-top:.8em; }
+.innerEvents > h2 { font-size:1.5em; line-height:.8em; display:none; }
+
+.galleryList { width:100%; margin-top:1em; }
+
+.galleryList > ul { max-width:978px; }
+.galleryList > ul > li { width:163px; float:left; }
+
+.arrowPrev, .arrowNext { width:30px; height:112px; }
+.arrowPrev { left:12px; }
+.arrowNext { right:12px; }
+
+/* inner event tab end */
+
+.sitemapTab { background-image:url(../images/sitemap/desk/bg-banner.jpg); background-position:center 0; background-size:auto 100%; }
+
+.innerSitemap { max-width:800px; padding-top:8%; }
+.innerSitemap > h1 { font-size:4.5em; line-height:1.2em; }
+
+.sitePanelRow { width:80%; margin-top:5em; }
+.sitePanel { width:50%; overflow:hidden; }
+.oneSitemap { float:left; }
+.twoSitemap { float:right; }
+
+.sitePanel > ul {}
+.sitePanel > ul li { font-size:1.3em; padding-left:25px; background-position:0 7px; margin-bottom:.3em; }
+.sitePanel > ul li > a { line-height:1.2em; }
+.sitePanel > ul li > ul { margin-top:.5em; }
+.sitePanel > ul li > ul li { margin-bottom:.2em; font-size:1em; }
+
+.oneSitemap > ul > li:nth-child(7) { margin-top:10%; }
+.twoSitemap > ul > li:nth-child(2) { margin-top:22%; }
+
+.bikeIcon { right:3.3333%; bottom:-10.0704%; width:47.3437%; height:92.9592%; background-image:url(../images/sitemap/desk/bike-img.png); }
+
+
+@media screen and (max-width:1400px) and (min-width:801px) {
+
+	.innerSitemap { max-width:600px; padding-top:6%; }
+	.innerSitemap > h1 { font-size:3em; }
+	
+	.sitePanel > ul li { font-size:1.1em; padding-left:22px; background-position:0 6px; }
+	
+	@media screen and (max-width:1280px) {
+		
+		.innerSitemap { max-width:550px; }
+		.sitePanel > ul li { font-size:1em; padding-left:20px; background-position:0 4px; margin-bottom:.2em; }
+		.sitePanel > ul li > ul { margin-top:.2em; }
+	}
+
+}
+
+/* stie map end */
+
+/*.homeTab { background-image:url(../images/home/desk/home-bg.jpg); background-position:center 0; background-size:auto 100%; }*/
+
+.homeTab { background-position:center 0; background-size:auto 100%; }
+
+.homeTab#homeTab01 { background-image:url(../images/home/desk/bg-fire-bike.jpg);}
+.homeTab#homeTab1 { background-image:url(../images/home/desk/home-bg.jpg);}
+.homeTab#homeTab2 { background-image:url(../images/home/desk/home-bg-yellow.jpg);}
+
+/*.bikeImage { width:86.4583%; right:-9.8958%; top:22.4074%; }*/
+/*.bikeImage#bikeImage01 { width:55.8333%; right:0%; bottom:7.4074%; }*/
+.bikeImage#bikeImage01 { width: 37%;right: 21%;bottom: 5%; }
+
+.bikeImage#bikeImage1 { width:55.8333%; right:0%; bottom:7.4074%; }
+.bikeImage#bikeImage2 { width:86.4583%; right:-9.8958%; bottom:1.4074%; }
+
+/*.homeContainer { width:29.4791%; position:absolute; left:12.3437%; top:25.9259%; }*/
+.homeContainer#homeContainer01 { width:40%; position:absolute; left: 14%;top: 23%;}
+.homeContainer#homeContainer1 { width:34.8437%; position:absolute; left:12.3437%; top:20.9259%; }
+.homeContainer#homeContainer2 { width:29.8437%; position:absolute; left:12.3437%; top:20.9259%; }
+.homeContainer > h1 { width:100%; height:auto; }
+
+.homeContainer > .discover-btn { width:59.5406%; margin-top:1.5em;  }
+.homeContainer > .discover-btn > a { width:100%; height:auto; display:block; background-image:url(../images/home/desk/discover-btn.png); background-repeat:no-repeat; background-position:0 0; text-indent:-9999px; background-size:100% auto; }
+.homeContainer > .discover-btn > a:hover { background-image:url(../images/home/desk/discover-btn-hover.png); }
+
+.extTab { margin-top:2em; }
+
+.playIcon1{ display:inline-block; width:90%; background-image:url(../images/home/tvc_thumb.jpg); background-repeat:no-repeat; background-size:100% auto; height:0px; padding-bottom:55%; }
+/*.playIcon1:hover{ background-image:url(../images/home/play-icon-hover.jpg);}*/
+
+
+.homeOne { width:45.0980%; }
+.homeTwo { width:49.0196%; padding-bottom:31%; }
+
+.homeTwo > .icon { width:100%; top:37px;}
+.homeTwo > .icon > a > img { width:100%; height:auto; vertical-align:top; }
+
+.homeOne > h2, .homeTwo > h2 { font-size:2em; line-height:1.2em; }
+.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:35px; background-position:right 10px; }
+.homeTwo > p { font-size:2em; line-height:1.2em; left:0; bottom:0; }
+.homeTwo > p > a span { padding-right:35px; background-position:right 10px; }
+
+.galleryHome { margin-top:.5em; }
+
+.homeSlideshow{ width:100%; height:100%; top:0%; left:0;}
+.rslides { position: relative; list-style: none; overflow: hidden; width: 100%; height:100%; padding: 0; margin: 0 auto; }
+.rslides li { -webkit-backface-visibility: hidden; position: absolute; display: none; width: 100%; height:100% !important; min-height:100%; left: 0; top: 0; }
+.rslides li:first-child { position: relative; display: block; float: left; }
+
+.centered-btns_tabs { position:absolute; width:20%; margin: 0px auto 0 auto; text-align: center; right:0; z-index:11; float:none; bottom:55px; }
+.centered-btns_tabs li { display: inline; float: none; _float: left;  *float: left;
+margin:0px 5px 0 5px; }
+.centered-btns_tabs a { text-indent: -9999px; overflow: hidden; display: inline-block; _display: block;  *display: block;
+width: 18px; height: 18px; background:url(../images/inactive.jpg) no-repeat center center; }
+.centered-btns_here a{ background:url(../images/active.jpg) no-repeat center center; }
+
+.centered-btns_nav { display:none; position: absolute; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); top: 50%; left: 0; opacity: 0.7; z-index: 11; text-indent: -9999px; overflow: hidden; text-decoration: none; height: 51px; width: 31px; margin:-32px 0 0 0; }
+.centered-btns_nav:active { opacity: 1.0; }
+.centered-btns_nav.next { left: auto; background-position: right top; right: 20px; background:url(../images/right_arrow.png) no-repeat right top; background-size:100% auto; }
+.centered-btns_nav.prev { background:url(../images/left_arrow.png) no-repeat left top; left:20px; background-size:100% auto;}
+
+/*slide01******/
+#homeContainer01 h1 {line-height: 1.2em;font-size: 2.2em;letter-spacing: 4px;}
+#homeContainer01 h1 span, #homeContainer01 p span {color: #fabe10; letter-spacing: normal}
+#homeContainer01 h1 span.rupee { font-family: 'rupee_foradianregular'; padding-right: 5px}
+#homeContainer01 p {font-size: 0.95em;}
+.homeContainer > .knwmore_btn { width:32%;}
+.homeContainer > .knwmore_btn > a { width:100%; height:auto; display:block; background-image:url(../images/home/desk/know_more.png); background-repeat:no-repeat; background-position:0 0; text-indent:-9999px; background-size:100% auto; }
+.homeContainer > .knwmore_btn > a:hover { background-image:url(../images/home/desk/know_more.png); }
+#homeContainer01 .extTab {margin-top: 4em;}
+#homeContainer01 > p.termsc {font-size: 0.6em;margin-top: 1.5em;}
+
+#bikeImage01 {display:none;}
+
+
+
+@media screen and (max-width:1920px) and (min-width:1601px) {
+	.extTab {margin-top: 8em;}
+	#bikeImage01.bikeImage {width: 33%;right: 17%;bottom: 2%;}
+	.homeContainer#homeContainer01 { left: 18%;}
+	#homeContainer01 h1 {font-size: 3em;letter-spacing: 4px;}
+}
+@media screen and (max-width:1680px) and (min-width:801px) {
+
+	.homeOne > h2, .homeTwo > h2 { font-size:1.5em; line-height:1.4em; }
+	.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:30px; background-position:right 8px; background-size:auto 15px; }
+	.homeTwo > p { font-size:.8em; }
+	@media screen and (max-width:1600px) and (min-width:1366px) {
+		#bikeImage01.bikeImage {width: 33%;right: 21%;bottom: 2%;}
+		#homeContainer01.homeContainer {width: 45%;}
+		.knwmore_btn {width: 35%;}
+		#homeContainer01 h1 {font-size: 2.2em;}
+		@media screen and (max-width:1440px) and (min-width:1400px) and (max-height:900px) and (min-height:800px)  {
+			#bikeImage2.bikeImage {bottom: -3.593%;}
+		}
+	}
+	@media screen and (max-width:1300px) {
+		
+		.homeOne > h2, .homeTwo > h2 { font-size:1.4em; }
+		.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:25px; background-position:right 8px; background-size:auto 12px; }
+		.homeTwo > p { font-size:.7em; }
+		#homeContainer01 h1 {font-size: 2em;letter-spacing: 4px;}
+		#homeContainer01 p {font-size: 0.9em;}
+	
+	}
+	
+	@media screen and (max-width:1204px) {
+		
+		.homeOne > h2, .homeTwo > h2 { font-size:1.1em; }
+		.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:20px; background-position:right 5px; background-size:auto 9px; }
+		.homeTwo > p { font-size:.6em; }
+		
+		/*.homeTwo > .icon { width:100%; top:43px; margin-left:-90px;  }*/
+		#homeContainer01 h1 {line-height: 1.2em;letter-spacing: 5px;font-size: 2.3em;}
+		#homeContainer01 p {font-size: 0.8em;}
+		#bikeImage01.bikeImage {width: 33%;right: 21%;bottom: 2%;}
+		#homeContainer01.homeContainer {width: 60%;}
+		.knwmore_btn {width: 30%;}
+		
+		@media screen and (max-width:990px) {
+		.homeTab#homeTab01 { background-image:url(../images/home/desk/home-bg-fire_980x1280.jpg);}	
+		#bikeImage01.bikeImage {width: 38%;right: 14%;bottom: 3%;}
+		#homeContainer01.homeContainer {width: 44%;position: absolute;left: 4%;top: 19%;}
+		#homeContainer01 h1 {line-height: 1.3em;letter-spacing: 1px;font-size: 1.7em;}
+		.homeTab#homeTab01 {background-position:right 0;}
+		
+		}
+	}
+
+}
+
+
+@media screen and (max-width:1366px) {	
+		.bikeImage#bikeImage2 { bottom:-6.4074%; }
+		
+		@media screen and (max-width:1280px) {	
+			.bikeImage#bikeImage2 { bottom:-6.4074%; }
+		}
+		
+		@media screen and (max-width:1280px) and (min-height:643px){	
+			.bikeImage#bikeImage2 { bottom:0.4074%; }
+		}
+	
+}
+
+
+
+/* Home tab end */
+
+
+/* select dropdown form */
+.custom-select select { padding:8px 3px 8px 5px; }
+.custom-select:after { line-height:42px; padding:0 10px; }
+
+a.download{ position:absolute; display:inline-block; text-indent:-9999px; width:15%; padding-bottom:2.5%; background-image:url(../images/gallery/download.png); background-repeat:no-repeat; background-size:100% auto; right:10px; bottom:10px; max-width:157px;}
+a.download:hover{ background-image:url(../images/gallery/download_hover.png);}

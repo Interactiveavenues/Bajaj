@@ -1,0 +1,310 @@
+html,body { height:auto; }
+body { overflow:visible; }
+
+.container { height:auto; }
+.priceTab { height:640px; background-image:url(../images/price/mob-bg.jpg); background-size:100% 100%; }
+
+.content { max-width:80%; top:11%; margin-left:-40%; }
+.content > p { font-size:.8em; line-height:1.2em; margin-top:1em; letter-spacing:.03em; }
+.content > h1 { font-size:2.2em; line-height:.9em; }
+.content > h2 { font-size:1.5em; line-height:.9em; margin-top:2em; }
+
+.priceList { max-width:300px; height:auto; margin-top:1.1em; }
+
+/*.selectDropdown { width:100%; float:none; }
+.priceDetail { width:55%; float:none; margin:1em auto 0 auto; }
+.priceDetail > p { letter-spacing:.06em; line-height:18px; font-size:1.3em; padding-left:20px; background-position:0 0; background-size:auto 18px; }*/
+
+.selectDropdown { width:100%; margin:0 auto; }
+.priceDetail { width:100%; margin:0 auto; margin-top:1em; overflow:hidden; background-image:url(../images/price/bar-img.png); background-repeat:no-repeat; background-position:center 5px; }
+.priceDetail > p { width:40%; letter-spacing:.06em; line-height:18px; font-size:1.2em; padding-left:15px; background-position:0 0; background-size:auto 18px; text-align:center; }
+.priceDetail > p > span { font-size:.4em; line-height:.2em; text-transform:uppercase; }
+
+.priceDetail > p:first-child { float:left; }
+.priceDetail > p:last-child { float:right; }
+
+.tncPage { max-width:90%; margin-top:1em; padding:1em 5% 0 5%; }
+.tncPage > p { font-size:.85em; line-height:1.2em; }
+
+.productImg { width:86.45583%; height:84.5783%; background-image:url(../images/price/mob-bike-img.png); background-size:100% auto; margin-left:-43.2291%; }
+
+/* price tab end */
+.bookingTab { height:800px; background-image:url(../images/price/mob-bg.jpg); background-size:100% 100%; }
+
+
+ul.formList { max-width:70%; margin-top:1em; }
+.formList li { margin-bottom:.5em; }
+.formList li > .colOne,.formList li > .colTwo { max-width:100%; clear:both; }
+.formList li > .colTwo { margin-top:.5em; }
+.formList li > .colOne > input, .formList li > .colTwo > input { max-width:93%; padding:9px 3% 9px 3%; line-height:20px; font-size:.9em; color:#fff; }
+
+
+.formList li > .colFour { max-width:50%; margin:1em 25% 0 25%; }
+.formList li > .colFour > a { font-size:1em; height:20px; line-height:20px; padding:9px 0 9px 0; text-align:center; }
+.formList li > .colFour > a > span { background-position:right 4px; padding-right:20px; background-size:auto 12px; }
+
+.innerOverlay { width:90%; height:auto; margin:0; left:5%; top:65px; }
+.innerLayer { background:url(../images/priority-booking/mob/overlay-bottom-bg.jpg) no-repeat 0 bottom; }
+.innerLayer > p { font-size:.85em; line-height:1.2em; }
+
+.contentList { height:65%; padding:35% 5% 0 5%; position:relative; }
+
+.droplistTab { width:90%; position:absolute; left:50%; margin-left:-45%; top:50px; z-index:14; }
+.colState { width:100%; height:35px; float:left; }
+.colCity { width:100%; height:35px; margin:10px 0 0 0; float:left; }
+
+ul.priorityList li { width:100%; margin:1em 0; float:left; height:auto; }
+
+.closeBtn { position:absolute; right:10px; top:10px; width:20px; height:20px; z-index:14; display:block; }
+.close-Btn {
+
+    right: 4px;
+
+}
+
+.booking-select select { padding:5px 3px 5px 5px; }
+.booking-select:after { line-height:35px; padding:0 10px; }
+
+input[type=radio].css-radiobox + label.radiobox-label { padding-left:20px; height:auto; }
+input[type=radio].css-radiobox:checked + label.radiobox-label { background-size:15px auto; }
+	label.radiobox-label { background-size:15px auto; }
+label.radiobox-label > h3 { font-size:1em; line-height:1em; }
+label.radiobox-label > p { font-size:.9em; line-height:1.1em; margin-top:.5em; }
+label.radiobox-label > p.phoneIcon { padding-left:20px; background-size:15px auto; }
+
+.homeOne > h2 > a, .homeTwo > h2 > a > span {color:#ffc012;}
+
+@media screen and (max-width:400px) and (min-width:240px) {
+
+	.bookingTab { height:700px; background-image:url(../images/price/mob-bg.jpg); }
+	
+	ul.formList { max-width:100%; margin-top:1em; }
+	
+	.contentList { height:65%; padding:45% 5% 0 5%; position:relative; }
+	
+	@media screen and (max-width:300px) {
+		
+		.contentList { height:60%; padding:55% 5% 0 5%; position:relative; }
+		
+	}
+
+}
+
+/* priority dealer end */
+
+.dealerTab { height:640px; background-image:url(../images/dealer-locator/mob-bg.jpg); background-size:100% 100%; }
+
+.dealerContent { max-width:90%; top:15%; margin-left:-45%; }
+.dealerContent > h1 { font-size:2em; line-height:.9em; }
+.dealerContent > h2 { font-size:1.6em; line-height:1.2em; margin-top:.8em; }
+.dealerContent > p { font-size:.8em; line-height:1.2em; margin-top:2em; }
+
+.dropList { max-width:240px; height:74px; margin-top:1em; }
+
+.selectOne { max-width:240px; float:none; }
+.colOne { max-width:200px; }
+.selectTwo { max-width:240px; clear:both; margin-top:10px; float:none; }
+.colTwo { max-width:35px; }
+
+.colTwo > a { height:32px; background-position:center 7px; }
+
+.listTab { margin-top:0; background:none; }
+
+ul.addressList { max-width:100%; } 
+.addressList li, .addressList li.listOne { max-width:100%; min-height:auto; padding:20px 0; float:left; text-align:center;  }
+.addressList li > h3 { font-size:1em; line-height:1.4em; }
+.addressList li > p { font-size:.95em; line-height:1.2em; }
+
+/* dealer locator end */
+
+
+.contactTab { height:800px; background-image:url(../images/contact-us/mob-bg.jpg); background-size:100% 100%;  }
+
+.innerContact { max-width:96%; top:15.375%; left:50%; margin-left:-48%; }
+
+.innerContact > p { max-width:253px; font-size:1em; line-height:1.2em; margin:0 auto; margin-bottom:1.5em; padding-left:40px; }
+.innerContact > h1 { font-size:2.4em; line-height:.9em; text-align:center; }
+.innerContact > h2 { font-size:.85em; line-height:1.2em; margin-bottom:1em; text-align:center; }
+
+.innerContact > p.addressCont { background-size:18px auto; background-position:10px 0;  }
+.innerContact > p.phoneCont { background-size:31px auto;  }
+.innerContact > p.mailCont { background-size:30px auto; background-position:0 5px; }
+
+.contactImg { width:76.4583%; height:97.2752%; background-image:url(../images/contact-us/mob-bike-img.png); background-size:100% auto; left:0; }
+
+@media only screen and (max-width:400px) and (min-width:240px) {
+	
+	.contactTab { height:640px; }
+
+}
+
+/* contact us end */
+
+.eventsTab { height:800px; background-image:url(../images/events/mob-bg.jpg); background-position:0 bottom; background-size:100% 100%; }
+
+.eventsContent { max-width:90%; top:15%; margin-left:-45%; }
+.eventsContent > h1 { font-size:3em; line-height:1.2em; padding:0; text-align:center;  }
+
+.eventsList { }
+.eventsList ul li, .eventsList ul li.listCenter { max-width:100%; height:auto; margin:15px 0; float:left; clear:both; }
+.eventsList ul li > .hdrImage { margin-bottom:.5em; }
+.eventsList ul li > h2 { font-size:1.3em; line-height:1.2em; margin-bottom:.2em; }
+.eventsList ul li > p { font-size:1em; line-height:1.2em; margin-bottom:.5em; }
+.eventsList ul li > a.knowMoreBtn { width:124px; height:37px; background-image:url(../images/events/desk-know-more-bg.png); font-size:.85em; line-height:40px; text-align:center; }
+.eventsList ul li > a.knowMoreBtn > span { background-position:right 4px; padding-right:14px; background-size:auto 10px; }
+
+/* Event tab end */
+.mainBanner { width:100%; height:181px; background-position:center top, 0 0; background-image:url(../images/events/inner-events/tab-banner.png),url(../images/events/inner-events/banner-bg.png); background-size:auto 100%,100% 100%; }
+
+.mainBanner > h1 { left:2%; bottom:-70px; font-size:2.2em; line-height:.8em; max-width:95%; margin-left:0; color:#fff; text-align:left; }
+
+.innerEvents { max-width:95%; margin-top:5em; }
+.innerEvents > p { font-size:.95em; line-height:1.5em; margin-top:.8em; }
+.innerEvents > h2 { font-size:1.5em; line-height:.8em; display:none; }
+
+.galleryList { width:100%; max-width:163px; margin:0 auto; margin-top:1em; }
+
+.galleryList > ul { max-width:163px; }
+.galleryList > ul > li { width:163px; float:left; }
+
+.arrowPrev, .arrowNext { width:30px; height:112px; }
+.arrowPrev { left:-30px; }
+.arrowNext { right:-30px; }
+
+/* inner event tab end */
+
+.sitemapTab { height:700px; background-image:url(../images/sitemap/mob/bg-banner.jpg); background-position:center 0; background-size:100% 100%; }
+
+.innerSitemap { max-width:80%; padding-top:10%; }
+.innerSitemap > h1 { font-size:2.2em; line-height:1.2em; }
+
+.sitePanelRow { width:100%; margin-top:2em; }
+
+.sitePanel > ul { width:100%; margin:0 0 0 10%; }
+.sitePanel > ul li { font-size:.9em; padding-left:15px; background-position:0 8px; background-size:auto 7px; margin-bottom:.1em; }
+.sitePanel > ul li > a { line-height:1.2em; }
+.sitePanel > ul li > ul { margin-top:0; }
+.sitePanel > ul li > ul li { width:100%; margin-bottom:0; font-size:1em; }
+
+.oneSitemap > ul > li:nth-child(7) { margin-top:5%; }
+.twoSitemap > ul > li:nth-child(2) { margin-top:17%; }
+
+.bikeIcon { right:10.4166%; bottom:5.75%; width:68.75%; height:45.8419%; background-image:url(../images/sitemap/mob/bike-img.png); }
+
+@media screen and (max-width:400px) and (min-width:240px) {
+
+	.innerSitemap { max-width:90%; padding-top:10%; }
+	.sitePanel > ul { margin:0 0 0 10%; }
+	
+	@media screen and (max-width:360px) {
+	
+		.sitemapTab { height:640px;	}
+		.bikeIcon { height:38.842%; }
+	
+	}
+	@media screen and (max-width:320px) {
+	
+		.sitemapTab { height:550px;	}
+		.bikeIcon { height:38.842%; }
+	}
+
+}
+
+/* site map end */
+.homeTab#homeTab01 { background-image:url(../images/home/mob/home-bg-fire.jpg); background-position:center 0; background-size:100% auto; background-color:#000; padding-bottom:165%; height:0px;}
+.homeTab#homeTab1 { background-image:url(../images/home/mob/home-bg.jpg); background-position:center 0; background-size:100% auto; background-color:#000; padding-bottom:165%; height:0px;}
+.homeTab#homeTab2 { padding-bottom:165%; height:0px;}
+
+/*.bikeImage { width:100%; right:0; top:41.75%; }*/
+.bikeImage#bikeImage01 { width:100%; right:0;  top:0; margin-top:52%; display:none;}
+.bikeImage#bikeImage1 { width:100%; right:0;  top:0; margin-top:52%; display:none;}
+.bikeImage#bikeImage2 { top:57.4074%; right:3%;}
+
+.homeContainer#homeContainer01 { width:78.7083%; position:absolute; left:50%; top:9%; margin-left:-39%; }
+.homeContainer#homeContainer1 { width:78.7083%; position:absolute; left:50%; top:9%; margin-left:-39%; }
+.homeContainer#homeContainer2 { width:78.7083%; position:absolute; left:50%; top:12%; margin-left:-39%; }
+.homeContainer > .discover-btn { width:76.1732%; margin-top:1.5em;  }
+
+/*.extTab { margin-top:39.625%; }*/
+.extTab { margin-top:80%; }
+
+.centered-btns_tabs { display:none;}
+
+.centered-btns_nav { display:block; height: 33px; width: 20px;} 
+
+
+.homeOne { width:41.6666%; margin-left:6.8376%; }
+.homeTwo { width:44.0170%; padding-bottom:25%; margin-right:0; }
+
+/*.homeTwo > .icon { width:100%; top:28%; margin-left:-70%;  }
+.homeTwo > .icon > a > img { width:100%; height:auto; vertical-align:top; }*/
+
+.homeOne > h2, .homeTwo > h2 { font-size:1.3em; line-height:1.2em; }
+.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:25px; background-position:right 7px; background-size:auto 12px; }
+.homeTwo > p { font-size:.8em; line-height:1em; color:#fff; }
+
+.homeTwo > .icon { top:30px;}
+
+.galleryHome { margin-top:.5em; }
+
+#homeContainer01.homeContainer {top:12%;width: 90%;margin-left: -45%;}
+#homeContainer01 h1 {letter-spacing: 4px;font-size: 1.4em;line-height: 1.2em;}
+#homeContainer01 p {font-size: 0.6em;margin-top:5px;}
+.homeContainer > .discover-btn {width: 46%;}
+
+
+
+@media screen and (max-width:360px) and (min-width:240px) {
+
+	.homeTab { height:640px; }
+	
+	/*.extTab { margin-top:42.625%; }*/
+	
+	.homeOne > h2, .homeTwo > h2 { font-size:1.2em; line-height:1.2em; }
+	.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:22px; background-position:right 7px; background-size:auto 10px; }
+	.homeTwo > p { font-size:.6em; line-height:1.2em; color:#fff; }
+	
+	#homeContainer01 p {font-size: 0.5em;}
+	#homeContainer01 h1 {letter-spacing: 1px;font-size: 1.3em;}
+	
+	@media screen and (max-width:320px) {
+
+	.homeTab { height:500px; }
+	
+	/*.extTab { margin-top:40.625%; }*/
+	
+	.homeOne > h2, .homeTwo > h2 { font-size:1em; line-height:1.2em; }
+	.homeOne > h2 > a span,.homeTwo > h2 > a span { padding-right:20px; background-position:right 5px; background-size:auto 10px; }
+	.homeTwo > p { font-size:.55em; line-height:1.2em; color:#fff; }
+
+	}
+
+}
+
+/* Home tab end */
+
+
+/* select dropdown form */
+.custom-select select { padding:4px 3px 4px 5px; }
+.custom-select:after { line-height:32px; padding:0 10px; }
+
+/* pagination tab */
+
+.holder a { font-size:.9em; margin:0 5px; }
+.holder a:hover { color:#000;  }
+.holder a.jp-previous { width:11px; height:23px; margin-right:15px; }
+.holder a.jp-next { width:11px; height:23px; margin-left:15px; }
+.holder a.jp-current, a.jp-current:hover { color:#000; }
+.holder a.jp-disabled, a.jp-disabled:hover { color:#000; }
+.holder a.jp-current, a.jp-current:hover, .holder a.jp-disabled, a.jp-disabled:hover { cursor:default; background:none;  }
+.holder span { margin:0 8px; color:#000; font-weight:bold; }
+
+.paginationEvents a { font-size:.9em; margin:0 5px; }
+.paginationEvents a:hover { color:#000;  }
+.paginationEvents a.jp-previous { width:11px; height:23px; margin-right:15px; }
+.paginationEvents a.jp-next { width:11px; height:23px; margin-left:15px; }
+.paginationEvents a.jp-current, a.jp-current:hover { color:#000; }
+.paginationEvents a.jp-disabled, a.jp-disabled:hover { color:#000; }
+.paginationEvents a.jp-current, a.jp-current:hover, .paginationEvents a.jp-disabled, a.jp-disabled:hover { cursor:default; background:none;  }
+.paginationEvents span { margin:0 8px; color:#000; font-weight:bold; }
+

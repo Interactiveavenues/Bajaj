@@ -1,0 +1,315 @@
+.header { width:100%; height:75px; position:fixed; background-image:url(../images/tab-header-bg.png); background-repeat:repeat-x; background-position:0 0; background-size:auto auto; margin:0; left:0; z-index:100; }
+
+a.logo { width:133px; height:45px; position:absolute; right:2%; top:15px; background-image:url(../images/logo.png); background-repeat:no-repeat; background-position:0 0; background-size:100% auto; text-indent:-9999px; }
+
+.nav { position:absolute; width:100%; height:0px; overflow-x:auto; visibility:visible; left:0; top:75px; }
+
+/*.nav.is-visible { visibility:visible; }*/
+
+.menuButton  { display:block; line-height:1; display:inline-block; padding:1.7rem 1.2rem; border:0; }
+
+/* Nav toggle icon */
+.menuButton .icon-menu { position:relative; display:inline-block; width:40px; height:20px; vertical-align:middle; fill:none; }
+
+/* Nav toggle icon lines */
+.icon-menu .line { position:absolute; left:0; display:block; width:100%; height:4px; -webkit-transition:all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1.000); transition:all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1.000); -webkit-transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1.000); transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1.000); background-color:#cccccc; }
+
+/* Nav toggle icon line 1 */
+.icon-menu .line-1 { top:0; }
+/* When active, rotate line 1 to be lefthand part of X */
+.is-active .icon-menu .line-1 { -webkit-transform:translateY(8px) translateX(0) rotate(45deg); -ms-transform:translateY(8px) translateX(0) rotate(45deg); transform:translateY(8px) translateX(0) rotate(45deg); }
+
+/* Nav toggle icon line 2 */
+.icon-menu .line-2 { top:50%; margin-top:-.12em; }
+/* When active, hide line 2 */
+.is-active .icon-menu .line-2 { opacity:0; }
+
+/* Nav toggle icon line 3 */
+.icon-menu .line-3 { bottom:0; }
+/* When active, rotate line 3 to be righthand part of X */
+.is-active .icon-menu .line-3 { -webkit-transform:translateY(-8px) translateX(0) rotate(-45deg); -ms-transform:translateY(-8px) translateX(0) rotate(-45deg); transform:translateY(-8px) translateX(0) rotate(-45deg); }
+
+
+
+
+ul.menu { width:100%; font-family:'robotobold_condensed_italic', sans-serif; list-style:none; background-color:#232323; position:relative; }
+.menu li { width:100%; color:#878786; font-size:1em; border-top:1px solid #2f2f2f; border-bottom:1px solid #151515; background-color:#212121; float:left; }
+
+.menu li > a { line-height:48px; color:#666; text-decoration:none; padding:0 25px; display:block; }
+
+.menu li:hover, .menu li:hover > a, .menu li.select > a { color:#ccc;  }
+
+
+.sub-menu > li > a.black_demon { background-image:url(../images/black_box.png); background-repeat:no-repeat;background-position: left 8px;background-size: auto 15px;padding-left: 25px; }
+.sub-menu > li > a.bright_yellow { background-image:url(../images/yellow_box.png); background-repeat:no-repeat;background-position: left 8px;background-size: auto 15px;padding-left: 25px; }
+
+@media (max-width:800px) {
+        .menu li ul.sub-menu { display:none; }
+}
+
+ul.sub-menu { font-family:'helr48w', sans-serif; list-style:none; position:relative; }
+.menu li ul.sub-menu li > a { line-height:40px; height:40px; color:#878786; text-decoration:none;  }
+.menu li ul.sub-menu li > a:hover { color:#fff; }
+
+.menu li.has-sub.active { border-bottom:0; }
+.menu li.has-sub > a span { display:block; }
+.menu li.has-sub > a span { background: url(../images/normal-arrow.png) right center no-repeat; }
+.menu li.has-sub.active > a span { background: url(../images/active-arrow.png) right center no-repeat; }
+
+.socialTab { display:none; }
+
+@media screen and (max-width:480px) {
+
+        .header { width:100%; height:50px; background-size:100% 100%; }
+        a.logo { width:89px; height:30px; right:5%; top:10px; }
+        .nav { top:50px; }
+
+        .menuButton  { padding:.9rem .8rem; }
+        .menuButton .icon-menu { width:25px; height:20px; }
+
+        .menu li { font-size:.95em; }
+        .menu li > a { line-height:38px; padding:0 20px; }
+
+        .menu li ul.sub-menu li > a { line-height:30px; height:30px; }
+
+        .menu li.has-sub > a span { background-size:auto 15px; }
+        .menu li.has-sub.active > a span { background-size:15px auto;}
+
+
+}
+
+
+
+.footer { width:100%; background-image:url(../images/ft-bg.jpg); background-repeat:repeat-x; background-position:0 0; position:fixed; left:0; bottom:0; z-index:100; }
+.innerFooter { width:998px; height:50px; text-align:center; }
+
+.footerOne { display:none; }
+
+.footerTwo > a.registerIcon { width:16.3541%; height:178%; position:absolute; bottom:0; right:13.4375%; background-image:url(../images/common/register-icon.png); background-repeat:no-repeat; background-position:0 bottom; background-size:100% auto; text-indent:-9999px; }
+.footerTwo > a.registerIcon:hover { background-image:url(../images/common/register-hover-icon.png); }
+
+.footerTwo > ul { font-family:'Conv_National-Light', sans-serif; font-size:.8em; list-style:none; padding-top:1.2em; }
+.footerTwo > ul li { padding:0 1.6032%; background:url(../images/footer-bar.jpg) no-repeat right .45em; line-height:1.5em;  }
+.footerTwo > ul li > a { text-decoration:none; color:#666; }
+.footerTwo > ul li > a:hover,.footerTwo > ul li > a.select { color:#ccc; }
+
+.footerTwo > ul li:nth-child(2) { display:none; }
+.footerTwo > ul li:nth-child(2) > a { text-decoration:none; color:#ffcc01; }
+.footerTwo > ul li:nth-child(2) > a:hover,.footerTwo > ul li:nth-child(1) > a.select { color:#ffcc01; }
+
+.footerTwo > ul li:first-child { padding-left:0; }
+.footerTwo > ul li:last-child { padding-right:0; background:none; }
+
+.footerTwo > ul li:nth-child(1) { width:6.8136%; text-indent:-9999px; }
+.footerTwo > ul li:nth-child(1) > a { background-image:url(../images/bajaj-logo-icon.png); background-repeat:no-repeat; background-position:0 0; background-size:100% auto; display:block; }
+.footerTwo > ul li:nth-child(1) > a:hover { background-image:url(../images/bajaj-logo-hover-icon.png); }
+
+@media (min-width:801px) {
+
+        .innerFooter { float:left; }
+        .footerTwo > ul { margin-left:1.0416%; }
+        .footerTwo > ul li { float:left; }
+
+}
+
+
+@media screen and (max-width:1600px) {
+
+        .footer {  }
+        .innerFooter { width:823px; height:42px; margin:0 auto; text-align:center; }
+
+        .footerTwo > ul { font-size:.8em; padding-top:1em; }
+        .footerTwo > ul li { padding:0 1.6032%; background-position:right .45em; line-height:1.5em;  }
+
+        .footerTwo > ul li:nth-child(1) { width:6.8136%; }
+
+
+}
+
+@media screen and (max-width:1200px) {
+
+        .innerFooter { width:652px; height:33px; margin:0 auto; text-align:center; }
+
+        .footerTwo > ul { font-size:.8em; padding-top:.5em; }
+        .footerTwo > ul li { padding:0 1.6032%; background-position:right .35em; line-height:1.5em;  }
+
+        .footerTwo > ul li:nth-child(1) { width:6.8136%; }
+
+        .sub-menu > li > a.black_demon, .sub-menu > li > a.bright_yellow {background-position: left 5px;}
+}
+
+
+
+@media (min-width:801px) {
+
+        .menuButton { display:none; }
+
+        .header { width:1457px; height:170px; background-image:url(../images/header-bg.png); background-repeat:no-repeat; background-size:100% auto; margin-left:-728px; left:50%; top:0; }
+
+        a.logo { top:25px; width:175px; height:59px; background-size:100% auto; left:77px; }
+
+        .nav { height:88px; left:190px; top:39px; }
+
+        ul.menu { width:1130px; }
+        .menu li { width:auto; padding:0 20px; font-size:1em; border:0; background:none; }
+        .menu li:first-child { margin-left:152px; }
+        .menu li > a { line-height:50px; padding:0; }
+        .menu li:hover { background-image:url(../images/nav-shadow.png); background-repeat:no-repeat; background-position:center top; background-size:100% 100%; }
+
+        ul.sub-menu { top:50px; left:0; width:100%; height:38px; opacity:0; transition:opacity 0.8s linear; visibility:hidden; position:absolute; }
+
+        .menu li:hover ul.sub-menu { background-image:url(../images/dropdown-bg.png); background-repeat:no-repeat; background-position:0 0; background-size:100% auto; opacity:1; visibility:visible; }
+
+
+
+        .menu li ul.sub-menu li { font-size:.95em; background:none; color:#fff; }
+        .menu li ul.sub-menu li > a { line-height:35px; height:38px; }
+        .menu li ul.sub-menu li:first-child  { /* margin-left:68.5%; margin-left:55%;*/ }
+        .menu li:nth-child(7) ul.sub-menu li:first-child  { margin-left:68.5%; /*margin-left:64%;*/ }
+        .menu li:nth-child(2) ul.sub-menu li:first-child  { margin-left:16%; /*margin-left:64%;*/ }
+
+        .menu li.has-sub > a span { display:inherit; }
+        .menu li.has-sub > a span { background:none; }
+        .menu li.has-sub.active > a span { background:none; }
+
+
+
+        .socialTab { width:13.5209%; position:absolute; top:4.7058%; right:5.7652%; display:block; }
+        .socialTab > ul { list-style:none; overflow:hidden; }
+        .socialTab > ul li { height:14.1176%; float:left; margin-right:6.25%; height:auto; }
+        .socialTab > ul li > img { width:100%; height:auto; vertical-align:top; }
+
+        .socialTab > ul li > a { width:100%; height:auto; display:block; border:0; text-indent:-9999px; background-repeat:no-repeat; background-position:0 0; background-size:100% auto; }
+
+        .socialTab > ul li:nth-child(1) { width:43.6548%; }
+        .socialTab > ul li:nth-child(2) { width:5.0761%; }
+        .socialTab > ul li:nth-child(3) { width:10.1522%; }
+        .socialTab > ul li:nth-child(4) { width:10.6598%; margin-right:0; }
+
+        .socialTab > ul li:nth-child(2) > a { background-image:url(../images/fb-iocn.png); }
+        .socialTab > ul li:nth-child(3) > a { background-image:url(../images/tt-icon.png); }
+        .socialTab > ul li:nth-child(4) > a { background-image:url(../images/yt-icon.png); }
+
+        .socialTab > ul li:nth-child(2) > a:hover { background-image:url(../images/fb-hover-iocn.png); }
+        .socialTab > ul li:nth-child(3) > a:hover { background-image:url(../images/tt-hover-icon.png); }
+        .socialTab > ul li:nth-child(4) > a:hover { background-image:url(../images/yt-hover-icon.png); }
+
+
+        @media screen and (max-width:1600px) {
+
+                .header { width:1200px; height:140px; margin-left:-600px; }
+
+                a.logo { top:19px; left:64px; width:145px; height:50px; }
+
+                .nav { height:73px; left:157px; top:32px; }
+
+                ul.menu { width:931px; }
+                .menu li { padding:0 15px; font-size:.95em; }
+                .menu li:first-child { margin-left:111px; }
+                .menu li > a { line-height:41px; padding:0; }
+
+                ul.sub-menu { top:41px; height:32px; }
+
+                .menu li ul.sub-menu li { font-size:.9em; }
+                .menu li ul.sub-menu li > a { line-height:30px; height:32px; }
+                .menu li ul.sub-menu li:first-child  {/* margin-left:78%; margin-left:56%;*/ }
+                .menu li:nth-child(7) ul.sub-menu li:first-child  { /* margin-left:68.5%; margin-left:65%;*/ }
+
+        }
+
+        @media screen and (max-width:1200px) {
+
+                .header { width:950px; height:111px; margin-left:-475px; }
+
+                a.logo { top:16px; left:51px; width:115px; height:39px; }
+
+                .nav { height:58px; left:124px; top:25px; }
+
+                ul.menu { width:738px; }
+                .menu li { padding:0 7px; font-size:.9em; }
+                .menu li:first-child { margin-left:80px; }
+                .menu li > a { line-height:33px; padding:0; }
+
+                ul.sub-menu { top:33px; height:25px; }
+
+                .menu li ul.sub-menu li { font-size:.9em; }
+                .menu li ul.sub-menu li > a { line-height:23px; height:25px; }
+                .menu li ul.sub-menu li:first-child  { margin-left:82%; /*margin-left:58%;*/ }
+
+        }
+
+
+
+}
+
+
+
+@media (max-width:800px) and (min-width:240px) {
+
+        .footer { width:100%; height:75px; left:0; bottom:0; background-image:url(../images/tab-footer-bg.jpg); background-repeat:no-repeat; background-position:0 0; background-size:100% 100%; }
+        .innerFooter { width:100%; height:75px; margin:0 auto; text-align:center; }
+
+        .footerOne { display:block; }
+
+        .footerTwo > ul { padding-top:.5em; float:inherit; }
+        .footerTwo > ul li { display:inline-block; padding:0 1.6032%; background-position:right .45em; line-height:1.5em;  }
+        .footerTwo > ul li:nth-child(1) { display:none; }
+
+        .footerTwo > a.registerIcon { display:none; }
+        .footerTwo > ul li:nth-child(2) { display:inline-block; }
+
+
+        .footerOne { list-style:none; padding-top:1.2em; }
+        .footerOne > ul li { display:inline-block; padding:0 1.6032%; }
+
+        .footerOne > ul li:first-child { padding-left:0; }
+        .footerOne > ul li:last-child { padding-right:0; background:none; }
+
+        .footerOne > ul li > a { border:0; background-repeat:no-repeat; background-position:0 0; background-size:100% auto; text-decoration:none; color:#666; }
+        .footerOne > ul li > a:hover { color:#ccc; }
+
+        .footerOne > ul li:nth-child(1) { width:1.25%; display:inline-block; text-indent:-9999px; }
+        .footerOne > ul li:nth-child(2) { width:2.5%; display:inline-block; text-indent:-9999px; }
+        .footerOne > ul li:nth-child(3) { width:2.625%; display:inline-block; text-indent:-9999px; }
+        .footerOne > ul li:nth-child(4) { width:8.5%; display:inline-block; text-indent:-9999px; }
+
+
+        .footerOne > ul li:nth-child(1) > a { background-image:url(../images/fb-iocn.png); display:block; }
+        .footerOne > ul li:nth-child(2) > a { background-image:url(../images/tt-icon.png); display:block; }
+        .footerOne > ul li:nth-child(3) > a { background-image:url(../images/yt-icon.png); display:block; }
+        .footerOne > ul li:nth-child(4) > a { background-image:url(../images/bajaj-logo-icon.png); display:block; }
+
+        .footerOne > ul li:nth-child(1) > a:hover { background-image:url(../images/fb-hover-iocn.png); }
+        .footerOne > ul li:nth-child(2) > a:hover { background-image:url(../images/tt-hover-icon.png); }
+        .footerOne > ul li:nth-child(3) > a:hover { background-image:url(../images/yt-hover-icon.png); }
+        .footerOne > ul li:nth-child(4) > a:hover { background-image:url(../images/bajaj-logo-hover-icon.png); }
+
+        .menu li ul.sub-menu li > a.black_demon, .menu li ul.sub-menu li > a.bright_yellow {padding-left:50px;}
+        .sub-menu > li > a.black_demon, .sub-menu > li > a.bright_yellow {background-position:25px 50%;}
+
+
+        @media screen and (max-width:540px) {
+
+                .footerOne > ul li:nth-child(1) { width:1.5%; }
+                .footerOne > ul li:nth-child(2) { width:3%; }
+                .footerOne > ul li:nth-child(3) { width:3.15%; }
+                .footerOne > ul li:nth-child(4) { width:10.2%; }
+
+        }
+
+        @media screen and (max-width:480px) {
+
+                .footer { width:100%; height:75px;  position:static; left:0; bottom:0; background-image:url(../images/tab-footer-bg.jpg); background-repeat:no-repeat; background-position:0 0; background-size:100% 100%; }
+
+                .footerOne > ul li:nth-child(1) { width:2.0833%; }
+                .footerOne > ul li:nth-child(2) { width:4.1666%; }
+                .footerOne > ul li:nth-child(3) { width:4.375%; }
+                .footerOne > ul li:nth-child(4) { width:14.1666%; }
+
+                .footerTwo > ul li:nth-child(1) { display:none; }
+                .footerTwo > a.registerIcon { display:none; }
+                .footerTwo > ul li:nth-child(2) { display:inline-block; }
+
+        }
+
+}
